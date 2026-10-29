@@ -1,0 +1,2 @@
+# Feasibility harness proguard rules
+
