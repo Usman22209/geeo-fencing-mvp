@@ -12,3 +12,5 @@
 *.apk
 *.aab
 
+config.bat
+node_modules
