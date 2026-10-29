@@ -1,0 +1,34 @@
+<resources>
+    <!-- Brand & Theme -->
+    <color name="primary">#0F172A</color>
+    <color name="primary_dark">#020617</color>
+    <color name="accent">#2563EB</color>
+
+    <!-- Surfaces & Backgrounds -->
+    <color name="background">#F1F5F9</color>
+    <color name="card_bg">#FFFFFF</color>
+    <color name="card_stroke">#CBD5E1</color>
+    <color name="input_bg">#F8FAFC</color>
+
+    <!-- High-Contrast Typography -->
+    <color name="text_primary">#0F172A</color>
+    <color name="text_secondary">#475569</color>
+    <color name="text_muted">#64748B</color>
+    <color name="text_white">#FFFFFF</color>
+
+    <!-- State & Alert Colors -->
+    <color name="state_green">#16A34A</color>
+    <color name="state_green_bg">#DCFCE7</color>
+    <color name="state_blue">#2563EB</color>
+    <color name="state_blue_bg">#DBEAFE</color>
+    <color name="state_red">#DC2626</color>
+    <color name="state_red_bg">#FEE2E2</color>
+    <color name="state_amber">#D97706</color>
+    <color name="state_amber_bg">#FEF3C7</color>
+    <color name="state_gray">#64748B</color>
+    <color name="state_gray_bg">#E2E8F0</color>
+
+    <!-- Terminal Log -->
+    <color name="log_bg">#090D16</color>
+    <color name="log_text">#38BDF8</color>
+</resources>
