@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		212FF7EF0C661DA410304E9E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6DBE648292D6F73742847B /* ContentView.swift */; };
+		2374678C81B71AD11C21C62E /* FixData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCFC4F5C98905D913977F3F0 /* FixData.swift */; };
+		2935854C8EB221509F620867 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9274C61417AF5BE90E5D0CF0 /* MainViewModel.swift */; };
+		295D1C3566D7B482D8C9BACF /* DecisionEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A431E4B22A4B5A4F4E30DB5 /* DecisionEngine.swift */; };
+		2AB2C8DCF4873610A4B3652E /* DistanceCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4028325E60051D033785982 /* DistanceCardView.swift */; };
+		385C1C53F6B98BDD44FAE53D /* MonitoringControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D709223F273BB5F0E021AE5 /* MonitoringControlView.swift */; };
+		38F75108B43E7813EFAA3BD5 /* RegionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01BEA0C48C552C01796B1B1 /* RegionDelegate.swift */; };
+		3ECE4B4B9D6724B2A346152A /* EventStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE6F29A7E07424221F584AC /* EventStore.swift */; };
+		47F5A78B1BC5ED318863118F /* LogRecords.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA48F405B4FE7058736FC05D /* LogRecords.swift */; };
+		4A7BA7D8D85C92280C122FD5 /* DecisionResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 369CB1A1689D02964F53DA84 /* DecisionResult.swift */; };
+		4DE743DECF87E77D44C10BAC /* AmigoFeasibilityApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90EB0C38CF7B55FA0930B38E /* AmigoFeasibilityApp.swift */; };
+		501529E4C6569C7B251B0DBB /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F9FD4CA36004370197B3FF /* Logger.swift */; };
+		678FE8F1143B6E67C9EFA52F /* DecisionEngineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3467D4F1E31561E63FA01C0B /* DecisionEngineTests.swift */; };
+		713993A2ADA6A1D3F440630F /* RegionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D999B3F916436152995473F4 /* RegionManager.swift */; };
+		815391B2674F97D2F827CFD3 /* DemoGuideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361E5364F2A243C7F1FA5FF6 /* DemoGuideView.swift */; };
+		859E11EFA65DF201E09A44E7 /* BurstManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED581E140AFCEB4EDC52DD9 /* BurstManager.swift */; };
+		8747E3FFD4DD32D795B203FC /* PermissionHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBB0BDAC3E5B838F1C3B068 /* PermissionHelper.swift */; };
+		9AA4B553AE21C1AD93D1A98D /* NotificationSender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F799DE0AB86CCBB89E3E553 /* NotificationSender.swift */; };
+		A6E770A8FE955CF8CEB70930 /* QuickActionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A76AC7801D5C5246F5FB8A42 /* QuickActionsView.swift */; };
+		BA5340FC0BF82105CCEAE193 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9A8D6D9A332A8F9F828738 /* Config.swift */; };
+		BD6CA22CD60F941AF303299F /* ReasonCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57ADD9399E8E3C8353C18074 /* ReasonCode.swift */; };
+		CC0B065C1F518E49D6AB15CE /* AmigoTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA25025BD92B7CAAC97567B /* AmigoTheme.swift */; };
+		CC4F7F42F26B82F8A4464DE7 /* LogFeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69118A8485949D5B7CB4253B /* LogFeedView.swift */; };
+		D56D357E6ADCCC0E9CF8A440 /* TargetSetupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F2F9DDC05988F21B8BA065 /* TargetSetupView.swift */; };
+		E91DF5189BA8C31AA6A12C43 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14405D6AC58C2662919864AB /* AppDelegate.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		29720264F907051B816008C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0B38F5C538C069C0699792E7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC5D1676C77EBA48CA64F9BF;
+			remoteInfo = AmigoFeasibility;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A431E4B22A4B5A4F4E30DB5 /* DecisionEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecisionEngine.swift; sourceTree = "<group>"; };
+		14405D6AC58C2662919864AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1D709223F273BB5F0E021AE5 /* MonitoringControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonitoringControlView.swift; sourceTree = "<group>"; };
+		1F799DE0AB86CCBB89E3E553 /* NotificationSender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationSender.swift; sourceTree = "<group>"; };
+		26F2F9DDC05988F21B8BA065 /* TargetSetupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetSetupView.swift; sourceTree = "<group>"; };
+		3467D4F1E31561E63FA01C0B /* DecisionEngineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecisionEngineTests.swift; sourceTree = "<group>"; };
+		361E5364F2A243C7F1FA5FF6 /* DemoGuideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoGuideView.swift; sourceTree = "<group>"; };
+		369CB1A1689D02964F53DA84 /* DecisionResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecisionResult.swift; sourceTree = "<group>"; };
+		4BBB0BDAC3E5B838F1C3B068 /* PermissionHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionHelper.swift; sourceTree = "<group>"; };
+		4DA25025BD92B7CAAC97567B /* AmigoTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmigoTheme.swift; sourceTree = "<group>"; };
+		57ADD9399E8E3C8353C18074 /* ReasonCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReasonCode.swift; sourceTree = "<group>"; };
+		69118A8485949D5B7CB4253B /* LogFeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogFeedView.swift; sourceTree = "<group>"; };
+		90EB0C38CF7B55FA0930B38E /* AmigoFeasibilityApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmigoFeasibilityApp.swift; sourceTree = "<group>"; };
+		9274C61417AF5BE90E5D0CF0 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		A76AC7801D5C5246F5FB8A42 /* QuickActionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickActionsView.swift; sourceTree = "<group>"; };
+		A8B06EFE7DF009BC0C5F78B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		ADE6F29A7E07424221F584AC /* EventStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventStore.swift; sourceTree = "<group>"; };
+		BD6DBE648292D6F73742847B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BE6D06D9CCFDC7124C630A9D /* AmigoFeasibilityTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = AmigoFeasibilityTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C01BEA0C48C552C01796B1B1 /* RegionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegionDelegate.swift; sourceTree = "<group>"; };
+		CCFC4F5C98905D913977F3F0 /* FixData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FixData.swift; sourceTree = "<group>"; };
+		D999B3F916436152995473F4 /* RegionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegionManager.swift; sourceTree = "<group>"; };
+		DA48F405B4FE7058736FC05D /* LogRecords.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogRecords.swift; sourceTree = "<group>"; };
+		E2F9FD4CA36004370197B3FF /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		E966D23EC93B82939358C38C /* AmigoFeasibility.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = AmigoFeasibility.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EED581E140AFCEB4EDC52DD9 /* BurstManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BurstManager.swift; sourceTree = "<group>"; };
+		F4028325E60051D033785982 /* DistanceCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistanceCardView.swift; sourceTree = "<group>"; };
+		FE9A8D6D9A332A8F9F828738 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		248ECFDAAE56C4D6FFB18812 /* Notification */ = {
+			isa = PBXGroup;
+			children = (
+				1F799DE0AB86CCBB89E3E553 /* NotificationSender.swift */,
+			);
+			path = Notification;
+			sourceTree = "<group>";
+		};
+		2BA4F2D9A0C85A22CBAC4376 /* Location */ = {
+			isa = PBXGroup;
+			children = (
+				EED581E140AFCEB4EDC52DD9 /* BurstManager.swift */,
+				C01BEA0C48C552C01796B1B1 /* RegionDelegate.swift */,
+				D999B3F916436152995473F4 /* RegionManager.swift */,
+			);
+			path = Location;
+			sourceTree = "<group>";
+		};
+		383A65947D35C2D7D9CB5346 /* Permission */ = {
+			isa = PBXGroup;
+			children = (
+				4BBB0BDAC3E5B838F1C3B068 /* PermissionHelper.swift */,
+			);
+			path = Permission;
+			sourceTree = "<group>";
+		};
+		3A08CE110FAB4096EAD4F64A /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				ADE6F29A7E07424221F584AC /* EventStore.swift */,
+			);
+			path = Store;
+			sourceTree = "<group>";
+		};
+		5735DC85C58D1EA2804F89C0 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				FE9A8D6D9A332A8F9F828738 /* Config.swift */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		652378C795B6B0125CC2B47A /* Logger */ = {
+			isa = PBXGroup;
+			children = (
+				E2F9FD4CA36004370197B3FF /* Logger.swift */,
+			);
+			path = Logger;
+			sourceTree = "<group>";
+		};
+		6953C83BC794EDAB22030F0C /* App */ = {
+			isa = PBXGroup;
+			children = (
+				90EB0C38CF7B55FA0930B38E /* AmigoFeasibilityApp.swift */,
+				14405D6AC58C2662919864AB /* AppDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		719A6E161C81D7B36DCB45D2 /* AmigoFeasibility */ = {
+			isa = PBXGroup;
+			children = (
+				742002F5BDD0F42159D62214 /* Resources */,
+				C38CAA7806B6E312FD07581D /* Sources */,
+				B03E295B9CF68A19F2C35089 /* Tests */,
+			);
+			path = AmigoFeasibility;
+			sourceTree = "<group>";
+		};
+		742002F5BDD0F42159D62214 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A8B06EFE7DF009BC0C5F78B7 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		8D023E4447FE4519A09E2BF8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E966D23EC93B82939358C38C /* AmigoFeasibility.app */,
+				BE6D06D9CCFDC7124C630A9D /* AmigoFeasibilityTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B03E295B9CF68A19F2C35089 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				3467D4F1E31561E63FA01C0B /* DecisionEngineTests.swift */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		C38CAA7806B6E312FD07581D /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				6953C83BC794EDAB22030F0C /* App */,
+				5735DC85C58D1EA2804F89C0 /* Config */,
+				DCF7D645F8290B163CA21661 /* Engine */,
+				2BA4F2D9A0C85A22CBAC4376 /* Location */,
+				652378C795B6B0125CC2B47A /* Logger */,
+				FBD688FB0333DA38EAD1C045 /* Models */,
+				248ECFDAAE56C4D6FFB18812 /* Notification */,
+				383A65947D35C2D7D9CB5346 /* Permission */,
+				3A08CE110FAB4096EAD4F64A /* Store */,
+				F467EE39C8CB8D60E8A2DF19 /* Views */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		D9491FDE3EF966DB7DC8D1AB = {
+			isa = PBXGroup;
+			children = (
+				719A6E161C81D7B36DCB45D2 /* AmigoFeasibility */,
+				8D023E4447FE4519A09E2BF8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DCF7D645F8290B163CA21661 /* Engine */ = {
+			isa = PBXGroup;
+			children = (
+				0A431E4B22A4B5A4F4E30DB5 /* DecisionEngine.swift */,
+			);
+			path = Engine;
+			sourceTree = "<group>";
+		};
+		F467EE39C8CB8D60E8A2DF19 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4DA25025BD92B7CAAC97567B /* AmigoTheme.swift */,
+				BD6DBE648292D6F73742847B /* ContentView.swift */,
+				361E5364F2A243C7F1FA5FF6 /* DemoGuideView.swift */,
+				F4028325E60051D033785982 /* DistanceCardView.swift */,
+				69118A8485949D5B7CB4253B /* LogFeedView.swift */,
+				9274C61417AF5BE90E5D0CF0 /* MainViewModel.swift */,
+				1D709223F273BB5F0E021AE5 /* MonitoringControlView.swift */,
+				A76AC7801D5C5246F5FB8A42 /* QuickActionsView.swift */,
+				26F2F9DDC05988F21B8BA065 /* TargetSetupView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FBD688FB0333DA38EAD1C045 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				369CB1A1689D02964F53DA84 /* DecisionResult.swift */,
+				CCFC4F5C98905D913977F3F0 /* FixData.swift */,
+				DA48F405B4FE7058736FC05D /* LogRecords.swift */,
+				57ADD9399E8E3C8353C18074 /* ReasonCode.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		726C38D9773962272EBE979E /* AmigoFeasibilityTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EBD407BB23CC336893FF682 /* Build configuration list for PBXNativeTarget "AmigoFeasibilityTests" */;
+			buildPhases = (
+				5CC31421C36509E70F652754 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00B0EB9E65F5F26431832932 /* PBXTargetDependency */,
+			);
+			name = AmigoFeasibilityTests;
+			packageProductDependencies = (
+			);
+			productName = AmigoFeasibilityTests;
+			productReference = BE6D06D9CCFDC7124C630A9D /* AmigoFeasibilityTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DC5D1676C77EBA48CA64F9BF /* AmigoFeasibility */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDE38A74541AC5C7963D796E /* Build configuration list for PBXNativeTarget "AmigoFeasibility" */;
+			buildPhases = (
+				61D983DFCA232FC60F36A475 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AmigoFeasibility;
+			packageProductDependencies = (
+			);
+			productName = AmigoFeasibility;
+			productReference = E966D23EC93B82939358C38C /* AmigoFeasibility.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0B38F5C538C069C0699792E7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					726C38D9773962272EBE979E = {
+						DevelopmentTeam = V8YHVJVPD9;
+						ProvisioningStyle = Automatic;
+					};
+					DC5D1676C77EBA48CA64F9BF = {
+						DevelopmentTeam = V8YHVJVPD9;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C4BF61077D45F4F4398E9927 /* Build configuration list for PBXProject "AmigoFeasibility" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = D9491FDE3EF966DB7DC8D1AB;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 8D023E4447FE4519A09E2BF8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC5D1676C77EBA48CA64F9BF /* AmigoFeasibility */,
+				726C38D9773962272EBE979E /* AmigoFeasibilityTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5CC31421C36509E70F652754 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				678FE8F1143B6E67C9EFA52F /* DecisionEngineTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61D983DFCA232FC60F36A475 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DE743DECF87E77D44C10BAC /* AmigoFeasibilityApp.swift in Sources */,
+				CC0B065C1F518E49D6AB15CE /* AmigoTheme.swift in Sources */,
+				E91DF5189BA8C31AA6A12C43 /* AppDelegate.swift in Sources */,
+				859E11EFA65DF201E09A44E7 /* BurstManager.swift in Sources */,
+				BA5340FC0BF82105CCEAE193 /* Config.swift in Sources */,
+				212FF7EF0C661DA410304E9E /* ContentView.swift in Sources */,
+				295D1C3566D7B482D8C9BACF /* DecisionEngine.swift in Sources */,
+				4A7BA7D8D85C92280C122FD5 /* DecisionResult.swift in Sources */,
+				815391B2674F97D2F827CFD3 /* DemoGuideView.swift in Sources */,
+				2AB2C8DCF4873610A4B3652E /* DistanceCardView.swift in Sources */,
+				3ECE4B4B9D6724B2A346152A /* EventStore.swift in Sources */,
+				2374678C81B71AD11C21C62E /* FixData.swift in Sources */,
+				CC4F7F42F26B82F8A4464DE7 /* LogFeedView.swift in Sources */,
+				47F5A78B1BC5ED318863118F /* LogRecords.swift in Sources */,
+				501529E4C6569C7B251B0DBB /* Logger.swift in Sources */,
+				2935854C8EB221509F620867 /* MainViewModel.swift in Sources */,
+				385C1C53F6B98BDD44FAE53D /* MonitoringControlView.swift in Sources */,
+				9AA4B553AE21C1AD93D1A98D /* NotificationSender.swift in Sources */,
+				8747E3FFD4DD32D795B203FC /* PermissionHelper.swift in Sources */,
+				A6E770A8FE955CF8CEB70930 /* QuickActionsView.swift in Sources */,
+				BD6CA22CD60F941AF303299F /* ReasonCode.swift in Sources */,
+				38F75108B43E7813EFAA3BD5 /* RegionDelegate.swift in Sources */,
+				713993A2ADA6A1D3F440630F /* RegionManager.swift in Sources */,
+				D56D357E6ADCCC0E9CF8A440 /* TargetSetupView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00B0EB9E65F5F26431832932 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC5D1676C77EBA48CA64F9BF /* AmigoFeasibility */;
+			targetProxy = 29720264F907051B816008C9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1FA2E2A27AF75D7C2E343E9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGNING_ALLOWED = YES;
+				CODE_SIGNING_REQUIRED = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V8YHVJVPD9;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = AmigoFeasibility/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.talha.amigo.feasibility;
+				PRODUCT_NAME = AmigoFeasibility;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2F71E8CAB0823C0BFE4027A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGNING_ALLOWED = YES;
+				CODE_SIGNING_REQUIRED = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V8YHVJVPD9;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.talha.AmigoFeasibilityTests;
+				PRODUCT_NAME = AmigoFeasibilityTests;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AmigoFeasibility.app/AmigoFeasibility";
+			};
+			name = Release;
+		};
+		5951EC1F7D7DEE0230F123F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		5B410C15E96129C2165D9E6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		7DF06E5295E5C92CCD1E473D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGNING_ALLOWED = YES;
+				CODE_SIGNING_REQUIRED = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V8YHVJVPD9;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.talha.AmigoFeasibilityTests;
+				PRODUCT_NAME = AmigoFeasibilityTests;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AmigoFeasibility.app/AmigoFeasibility";
+			};
+			name = Debug;
+		};
+		97CD28EB3831F96DF03F157D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGNING_ALLOWED = YES;
+				CODE_SIGNING_REQUIRED = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V8YHVJVPD9;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = AmigoFeasibility/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.talha.amigo.feasibility;
+				PRODUCT_NAME = AmigoFeasibility;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4EBD407BB23CC336893FF682 /* Build configuration list for PBXNativeTarget "AmigoFeasibilityTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DF06E5295E5C92CCD1E473D /* Debug */,
+				2F71E8CAB0823C0BFE4027A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		BDE38A74541AC5C7963D796E /* Build configuration list for PBXNativeTarget "AmigoFeasibility" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FA2E2A27AF75D7C2E343E9B /* Debug */,
+				97CD28EB3831F96DF03F157D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C4BF61077D45F4F4398E9927 /* Build configuration list for PBXProject "AmigoFeasibility" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5951EC1F7D7DEE0230F123F7 /* Debug */,
+				5B410C15E96129C2165D9E6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0B38F5C538C069C0699792E7 /* Project object */;
+}
