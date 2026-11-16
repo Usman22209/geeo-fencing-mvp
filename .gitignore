@@ -1,3 +1,4 @@
+# Android
 *.iml
 .gradle
 .kotlin
@@ -6,9 +7,31 @@
 .DS_Store
 /build
 /app/build
+/android/build
+/android/app/build
 /captures
 .externalNativeBuild
 .cxx
 *.apk
 *.aab
+
+# React Native
+node_modules/
+.bundle/
+package-lock.json
+
+# Metro
+.metro-health-check*
+
+# iOS (CocoaPods, DerivedData)
+ios/Pods/
+ios/build/
+ios/DerivedData/
+*.xcworkspace
+
+# Misc
+*.log
+logs.zip
+proposal.html
+rn_temp/
 
