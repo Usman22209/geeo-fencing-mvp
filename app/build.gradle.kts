@@ -55,4 +55,7 @@ dependencies {
 
     testImplementation("junit:junit:4.13.2")
 }
-																																																																																																																																																																tasks.named("preBuild") { dependsOn(rootProject.tasks.named("startApi")) }
+
+tasks.named("preBuild") {
+    dependsOn(rootProject.tasks.named("startApi"))
+}
